@@ -3,4 +3,3 @@ node_modules
 .vscode
 dist
 .DS_Store
-package-lock.json

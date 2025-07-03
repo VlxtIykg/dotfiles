@@ -96,7 +96,7 @@ plugins=(
   tmux
   taskwarrior
 )
-zstyle :omz:plugins:ssh-agent identities ~/.ssh/{github_portfolio_key,github_overall_signing}
+zstyle :omz:plugins:ssh-agent identities ~/.ssh/{dotfile_auth_key,github_portfolio_key,github_overall_signing}
 source $ZSH/oh-my-zsh.sh
 
 # ssh-add ~/.ssh/github_portfolio_key
