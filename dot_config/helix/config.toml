@@ -1,0 +1,25 @@
+theme = "amberwood"
+
+# 2nd word, 1st word, alphabetical
+[editor]
+true-color = true
+auto-completion = true
+path-completion = true
+line-number = "relative"
+completion-timeout = 100
+soft-wrap.enable = true
+bufferline = "multiple"
+
+[editor.lsp]
+enable = true
+display-messages = false
+display-inlay-hints = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "underline"
+select = "underline"
+
+[editor.indent-guides]
+render = true
+character = "▏"
