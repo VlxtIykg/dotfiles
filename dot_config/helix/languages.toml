@@ -288,6 +288,7 @@ file-types = ["rs"]
 roots = ["Cargo.toml", "Cargo.lock"]
 shebangs = ["rust-script", "cargo"]
 auto-format = true
+formatter = ["rustfmt"]
 comment-tokens = ["//", "///", "//!"]
 block-comment-tokens = [
   { start = "/*", end = "*/" },
@@ -295,7 +296,7 @@ block-comment-tokens = [
   { start = "/*!", end = "*/" },
 ]
 language-servers = [ "rust-analyzer" ]
-indent = { tab-width = 4, unit = "    " }
+indent = { tab-width = 2, unit = "  " }
 persistent-diagnostic-sources = ["rustc", "clippy"]
 
 [language.auto-pairs]

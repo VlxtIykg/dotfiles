@@ -23,3 +23,6 @@ select = "underline"
 [editor.indent-guides]
 render = true
 character = "▏"
+
+[keys.normal]
+"A-x" = "@x<A-d>"

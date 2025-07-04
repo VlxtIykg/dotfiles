@@ -96,6 +96,7 @@ plugins=(
   tmux
   taskwarrior
 )
+
 zstyle :omz:plugins:ssh-agent identities ~/.ssh/{dotfile_auth_key,github_portfolio_key,github_overall_signing}
 source $ZSH/oh-my-zsh.sh
 
@@ -127,7 +128,9 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
+alias hxconfig="hx ~/.config/helix/config.toml"
 alias zshconfig="hx ~/.zshrc"
+alias hxlang="hx ~/.config/helix/languages.toml"
 alias helix="hx"
 alias python="python3"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
